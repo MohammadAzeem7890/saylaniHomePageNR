@@ -1,0 +1,238 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.top-icons{
+    background-color: rgba(100, 100, 200, 1);
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+}
+.icons{
+    margin-left: 11em;
+    padding-top: 1%;
+    color: white;
+    word-spacing: 1.2em;
+    float: left;
+    clear: float;
+    cursor: pointer;
+}
+i:hover{
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+i{
+    font-size: 20px;
+    color: white;
+}
+.text{
+    display:inline-block;
+    color: white;
+    margin-top: 1em;
+    margin-left: 5em;
+}
+.donation-buttons{
+    display: inline-block;
+    margin-left: 4.7em;
+}    
+.uk-donar, .donate-now, .smit-result{
+    background-color: snow;
+    columns: black;
+    height: 26px;
+    width: 100px;
+    border: thin black;
+    margin-right: 0.3em;
+    cursor: pointer;
+}
+.about-list, .saylani-services-list, .ehsas-list, .future-project-list, .donation-list{
+    display: none;
+}
+.icon{
+    height: 5%;
+    width: 15%;
+    margin-left: 10em;
+    float: left;
+}
+.logo{
+    height: 90%;
+    width: 90%;
+}
+.navbar{
+    height: 60%;
+    width: 100%;
+    background-color: whitesmoke;
+    border-bottom: solid snow;
+    float: left;
+    word-spacing: 0.7em;
+}
+.nav-list li{
+    display: inline-block;
+}
+.home{
+    margin-left: 3em;
+    background-color: royalblue;
+    border: solid royalblue;
+    color: white;
+    border-radius: 20px;
+    margin-top: 1.3em;
+    height: 30px;
+    width: 80px;
+    border: solid transparent;
+}
+.about, .media, .news, .donation{
+    margin-top: 1.3em;
+    height: 30px;
+    width: 60px;
+    border: solid transparent;
+    background-color: whitesmoke;
+}
+.services{
+    margin-top: 1.3em;
+    height: 30px;
+    width: 120px;
+    border: solid whitesmoke;
+    background-color: whitesmoke;
+}
+.ehsas{
+    margin-top: 1.3em;
+    height: 30px;
+    width: 120px;
+    border: solid whitesmoke;
+    background-color: whitesmoke;
+}
+.project{
+    margin-top: 1.3em;
+    height: 30px;
+    width: 100px;
+    border: solid whitesmoke;
+    background-color: whitesmoke;
+}
+.contact{
+    margin-top: 1.3em;
+    height: 30px;
+    width: 80px;
+    border: solid whitesmoke;
+    background-color: whitesmoke;
+}
+.donation{
+    margin-top: 1.3em;
+    height: 30px;
+    width: 80px;
+    border: solid whitesmoke;
+    background-color: whitesmoke;
+}
+.about:hover, .news:hover, .donation:hover,.services:hover, .contact:hover, .contact:hover, .project:hover, .ehsas:hover, .media:hover{
+    background-color: royalblue;
+    border: solid royalblue;
+    border-radius: 20px;
+    color: white;
+}
+.slider{
+    height: 37em;
+    width: 100%;
+}
+.slider-image{
+    height: 100%;
+    width: 100%;
+}
+.marquee{
+    display: inline-block;
+    height: 4em;
+    margin-top: 4.1em;
+    background-color: snow;
+    width: 70%;
+    margin-left: 230px;
+    border-top: solid 0px snow;
+}
+marquee{
+    display: inline-block;
+    color: white;
+    background-color: royalblue;
+    height: 1.7em;
+    width: 100%;
+    margin-top: 0.6em;
+    text-align: center;
+
+}
+.details{
+    text-decoration: none;
+}
+.date{
+    color: lightgreen;
+    display: inline-block;
+}
+.about-saylani{
+    background-color: whitesmoke;
+    color:black;
+}
+.heading{
+    height: 5em;
+    text-align: center;
+    width: 70% auto;
+    margin-right: 3em;
+
+}
+.about-heading{
+    text-transform: uppercase;
+    padding-top: 0.7em;
+    font-size: 2.9em;
+    font-family: sans-serif;
+    color: royalblue;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.about-heading span{
+    text-transform: uppercase;
+    color: lightgreen;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.inner-content{
+    margin-top: 1.4em;
+}
+.below-heading{
+    width: 50px;
+    height: 40px;
+}
+.below-heading img{
+    width: 100%;
+    margin-left: 46em;
+    margin-top: 1.2em;
+}
+.left{
+    height: 2px;
+    width: 4em;
+    background-color: green;
+    display: inline-block;
+    margin-left: 41em;
+    margin-top: 1.4em;
+}
+.left::after{
+    content: "";
+    height: 2px;
+    width: 4em;
+    background-color: green;
+    display: inline-block;
+    margin-left: 9em;
+    margin-bottom: 0.6em;
+}
+.content{
+    width:75%;
+    display: inline-block;
+    margin-left: 300px;
+    justify-content: start;
+    line-height: 30px;
+    font-weight: normal;
+}
+.content ul {
+    text-align: center;
+    margin-right: 200px;
+    text-align: left;
+
+}
+.content ul li{
+    list-style: none;
+    word-spacing: 5px;
+    line-break: initial;
+}
